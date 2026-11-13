@@ -1,29 +1,48 @@
-﻿# 一键发布到 GitHub Pages（需先执行 gh auth login）
+﻿# 发布到已有仓库 yangyang101（GitHub Pages 不改地址）
+# 需先执行：gh auth login
 $ErrorActionPreference = "Stop"
-$repo = "beipei-bakery"
+$owner = "yangyang193"
+$repo = "yangyang101"
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 Set-Location $root
 
 $git = Join-Path $root ".tools\MinGit\cmd\git.exe"
-if (-not (Test-Path $git)) { throw "未找到 Git，请先运行 MinGit 下载步骤或安装 Git for Windows" }
+if (-not (Test-Path $git)) {
+  $git = "git"
+}
 
 $gh = "C:\Program Files\GitHub CLI\gh.exe"
 if (-not (Test-Path $gh)) { throw "未找到 GitHub CLI，请先安装：winget install GitHub.cli" }
 
 & $gh auth status
-if (-not ((& $gh repo view "yangyang193/$repo" 2>$null))) {
-  & $gh repo create "yangyang193/$repo" --public --description "贝焙面包公开产品菜单" --confirm
+
+$remoteUrl = "https://github.com/$owner/$repo.git"
+$existing = & $git remote get-url origin 2>$null
+if ($existing) {
+  & $git remote set-url origin $remoteUrl
+} else {
+  & $git remote add origin $remoteUrl
 }
 
-if (-not (Test-Path ".git")) { & $git init -b main }
-$remote = (& $git remote get-url origin 2>$null)
-if (-not $remote) {
-  & $git remote add origin "https://github.com/yangyang193/$repo.git"
+& $git fetch origin main
+$hasMerge = $false
+try {
+  & $git merge origin/main --allow-unrelated-histories --no-edit -m "merge: 合并 yangyang101 现有内容"
+  $hasMerge = $true
+} catch {
+  Write-Warning "自动合并失败，请手动解决冲突后：git add -A ; git commit ; git push -u origin main"
+  throw
 }
 
 & $git add -A
-& $git -c user.name="yangyang193" -c user.email="243399808+yangyang193@users.noreply.github.com" commit -m "update: 菜单站点" 2>$null
+$status = & $git status --porcelain
+if ($status) {
+  & $git -c user.name=$owner -c user.email="243399808+$owner@users.noreply.github.com" commit -m "feat: 贝焙面包公开菜单站点（Pages 根目录）"
+}
+
 & $git push -u origin main
 
-& $gh api repos/yangyang193/$repo/pages -X POST -f build_type=legacy -f source[branch]=main -f source[path]=/ 2>$null
-Write-Host "公开链接（稍等 1～3 分钟生效）：https://yangyang193.github.io/$repo/"
+Write-Host ""
+Write-Host "公开链接（1～3 分钟生效）：https://$owner.github.io/$repo/"
+Write-Host "请在仓库 Settings → Pages 确认：Branch = main，Folder = / (root)"
+Write-Host "根目录 index.html 将作为首页；仓库内 python 等旧文件会保留。"
