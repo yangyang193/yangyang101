@@ -1,4 +1,4 @@
-const IMAGE_BASE = 'assets/products/raw/';
+const IMAGE_BASE = 'assets/products/display/';
 
 const state = {
   pages: [],
@@ -46,7 +46,7 @@ function createCoverPage() {
   page.className = 'page page-cover';
   page.dataset.type = 'cover';
   page.innerHTML = `
-    <img class="cover-photo" src="assets/cover.jpg" alt="贝焙面包封面" />
+    <img class="cover-photo" src="assets/cover.jpg" alt="贝焙面包封面" fetchpriority="high" decoding="async" />
     <div class="cover-overlay">
       <p>轻触下方按钮 · 翻阅甜蜜菜单</p>
       <button class="btn-primary" id="enterMenuBtn" type="button">进入菜单</button>
@@ -94,7 +94,12 @@ function createProductPage(meta) {
     </div>
     <div class="product-body">
       <div class="product-image-wrap">
-        <img src="${IMAGE_BASE}${meta.item.image}" alt="${meta.item.name}" loading="lazy" />
+        <img
+          data-src="${IMAGE_BASE}${meta.item.image}"
+          alt="${meta.item.name}"
+          decoding="async"
+          class="product-photo"
+        />
       </div>
       <article class="product-meta">
         <h2>${meta.item.name}</h2>
@@ -123,6 +128,40 @@ function renderBook(data) {
   showPage(0, 'init', true);
 }
 
+function loadProductImage(img) {
+  if (!(img instanceof HTMLImageElement) || img.dataset.loaded === '1') return;
+  const src = img.dataset.src;
+  if (!src) return;
+  img.classList.add('is-loading');
+  img.addEventListener(
+    'load',
+    () => {
+      img.classList.remove('is-loading');
+      img.dataset.loaded = '1';
+    },
+    { once: true },
+  );
+  img.addEventListener(
+    'error',
+    () => {
+      img.classList.remove('is-loading');
+    },
+    { once: true },
+  );
+  img.src = src;
+}
+
+function preloadImagesAround(pageIndex) {
+  const indexes = [pageIndex - 1, pageIndex, pageIndex + 1].filter(
+    (i) => i >= 0 && i < state.pages.length,
+  );
+  const nodes = bookEl.querySelectorAll('.page');
+  indexes.forEach((i) => {
+    const img = nodes[i]?.querySelector('.product-image-wrap img.product-photo');
+    if (img) loadProductImage(img);
+  });
+}
+
 function showPage(nextIndex, direction = 'next', force = false) {
   const prevIndex = state.index;
   if (!force && nextIndex === prevIndex) return;
@@ -140,6 +179,7 @@ function showPage(nextIndex, direction = 'next', force = false) {
     node.setAttribute('aria-hidden', i === nextIndex ? 'false' : 'true');
   });
   state.index = nextIndex;
+  preloadImagesAround(nextIndex);
   updateControls();
 }
 

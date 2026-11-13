@@ -1,376 +1,376 @@
 {
-  "shop": {
-    "name": "贝焙面包",
-    "slogan": "烘焙之美，始于贝焙。",
-    "phone": "19519196868"
-  },
-  "categories": [
-    {
-      "id": "desserts",
-      "name": "甜品类",
-      "items": [
-        {
-          "name": "蛋黄千层酥",
-          "price": "15/盒",
-          "image": "image1.png"
-        },
-        {
-          "name": "大福",
-          "price": "15/盒",
-          "image": "image2.png"
-        },
-        {
-          "name": "谷物全麦吐司",
-          "price": "15/袋",
-          "image": "image3.png"
-        },
-        {
-          "name": "蛋奶曲奇饼",
-          "price": "7/盒",
-          "image": "image4.png"
-        },
-        {
-          "name": "趣多多曲奇",
-          "price": "10/盒",
-          "image": "image5.png"
-        },
-        {
-          "name": "牛角包",
-          "price": "13/袋",
-          "image": "image6.png"
-        },
-        {
-          "name": "菠萝包",
-          "price": "5元一个",
-          "image": "image7.png"
-        },
-        {
-          "name": "瑞士卷",
-          "price": "15/盒",
-          "image": "image8.png"
-        },
-        {
-          "name": "花纹蛋糕",
-          "price": "18/斤",
-          "image": "image9.png"
-        },
-        {
-          "name": "古早蛋糕",
-          "price": "18/斤",
-          "image": "image10.png"
-        },
-        {
-          "name": "雪媚娘",
-          "price": "8/盒",
-          "image": "image11.png"
-        },
-        {
-          "name": "啵啵杯",
-          "price": "8/杯",
-          "image": "image12.png"
-        },
-        {
-          "name": "华夫碗",
-          "price": "8/碗",
-          "image": "image13.png"
-        },
-        {
-          "name": "水果泡芙",
-          "price": "15/盒",
-          "image": "image14.png"
-        },
-        {
-          "name": "蛋挞",
-          "price": "10/六个",
-          "image": "image15.png"
-        },
-        {
-          "name": "爆浆泡芙",
-          "price": "10/盒",
-          "image": "image16.png"
-        },
-        {
-          "name": "手工蛋卷",
-          "price": "9/盒",
-          "image": "image17.png"
-        },
-        {
-          "name": "紫薯薄饼",
-          "price": "7/10一盒",
-          "image": "image18.png"
-        }
-      ]
-    },
-    {
-      "id": "cakes",
-      "name": "蛋糕类",
-      "items": [
-        {
-          "name": "草莓巧克力卷围边蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image19.png"
-        },
-        {
-          "name": "草莓香橙生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image20.png"
-        },
-        {
-          "name": "大眼饼干碎蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image21.png"
-        },
-        {
-          "name": "气球小熊红心蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image22.png"
-        },
-        {
-          "name": "三层福寿庆典蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image23.png"
-        },
-        {
-          "name": "福如东海寿桃蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image24.png"
-        },
-        {
-          "name": "寿桃福寿爷爷蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image25.png"
-        },
-        {
-          "name": "红金酒瓶主题蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image26.png"
-        },
-        {
-          "name": "彩虹甜心双层蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image27.png"
-        },
-        {
-          "name": "星翼凯蒂猫蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image28.png"
-        },
-        {
-          "name": "风车城堡公主蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image29.png"
-        },
-        {
-          "name": "彩虹小猪一家蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image30.png"
-        },
-        {
-          "name": "爱妈妈缤纷水果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image31.png"
-        },
-        {
-          "name": "爸爸生日祝福蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image32.png"
-        },
-        {
-          "name": "粉蝶结公主城堡蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image33.png"
-        },
-        {
-          "name": "月亮哆啦A梦蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image34.png"
-        },
-        {
-          "name": "深蓝星空宇航员蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image35.png"
-        },
-        {
-          "name": "银白月球宇航员蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image36.png"
-        },
-        {
-          "name": "月亮城堡蝴蝶结蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image37.png"
-        },
-        {
-          "name": "红黑篮筐少年蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image38.png"
-        },
-        {
-          "name": "蓝金加油少年篮球蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image39.png"
-        },
-        {
-          "name": "银冠双层水果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image40.png"
-        },
-        {
-          "name": "双层缤纷水果生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image41.png"
-        },
-        {
-          "name": "花边四季水果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image42.png"
-        },
-        {
-          "name": "金芒柠檬裱花蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image43.png"
-        },
-        {
-          "name": "莓果黑饼干生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image44.png"
-        },
-        {
-          "name": "巧克力碎片莓果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image45.png"
-        },
-        {
-          "name": "芒果火龙果双拼蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image46.png"
-        },
-        {
-          "name": "小熊草莓饼干蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image47.png"
-        },
-        {
-          "name": "前程似锦水果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image48.png"
-        },
-        {
-          "name": "草莓蓝莓饼干花环蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image49.png"
-        },
-        {
-          "name": "青提草莓夹心饼干蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image50.png"
-        },
-        {
-          "name": "红金篮球派对蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image51.png"
-        },
-        {
-          "name": "凯蒂猫彩珠生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image52.png"
-        },
-        {
-          "name": "篮球小队饼干碎蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image53.png"
-        },
-        {
-          "name": "兔耳女孩糖果蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image54.png"
-        },
-        {
-          "name": "彩球字母生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image55.png"
-        },
-        {
-          "name": "黄色工程车蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image56.png"
-        },
-        {
-          "name": "草莓雪花蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image57.png"
-        },
-        {
-          "name": "星星云朵小萌娃蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image58.png"
-        },
-        {
-          "name": "红心金烛蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image59.png"
-        },
-        {
-          "name": "草莓蓝莓花园蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image60.png"
-        },
-        {
-          "name": "福字草莓祝寿蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image61.png"
-        },
-        {
-          "name": "金元宝暴富蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image62.png"
-        },
-        {
-          "name": "熊猫乐园围边蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image63.png"
-        },
-        {
-          "name": "蓝云哆啦A梦蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image64.png"
-        },
-        {
-          "name": "粉晶蓝莓蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image65.png"
-        },
-        {
-          "name": "蓝莓青提双拼蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image66.png"
-        },
-        {
-          "name": "蓝莓小雏菊蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image67.png"
-        },
-        {
-          "name": "红福双莓生日蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image68.png"
-        },
-        {
-          "name": "芒果葡萄红丝带蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image69.png"
-        },
-        {
-          "name": "蓝莓饼干花环蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image70.png"
-        },
-        {
-          "name": "饼干怪兽小熊蛋糕",
-          "price": "六到十二寸均可",
-          "image": "image71.png"
-        }
-      ]
-    }
-  ]
+    "shop":  {
+                 "name":  "贝焙面包",
+                 "slogan":  "烘焙之美，始于贝焙。",
+                 "phone":  "19519196868"
+             },
+    "categories":  [
+                       {
+                           "id":  "desserts",
+                           "name":  "甜品类",
+                           "items":  [
+                                         {
+                                             "name":  "蛋黄千层酥",
+                                             "price":  "15/盒",
+                                             "image":  "image1.jpg"
+                                         },
+                                         {
+                                             "name":  "大福",
+                                             "price":  "15/盒",
+                                             "image":  "image2.jpg"
+                                         },
+                                         {
+                                             "name":  "谷物全麦吐司",
+                                             "price":  "15/袋",
+                                             "image":  "image3.jpg"
+                                         },
+                                         {
+                                             "name":  "蛋奶曲奇饼",
+                                             "price":  "7/盒",
+                                             "image":  "image4.jpg"
+                                         },
+                                         {
+                                             "name":  "趣多多曲奇",
+                                             "price":  "10/盒",
+                                             "image":  "image5.jpg"
+                                         },
+                                         {
+                                             "name":  "牛角包",
+                                             "price":  "13/袋",
+                                             "image":  "image6.jpg"
+                                         },
+                                         {
+                                             "name":  "菠萝包",
+                                             "price":  "5元一个",
+                                             "image":  "image7.jpg"
+                                         },
+                                         {
+                                             "name":  "瑞士卷",
+                                             "price":  "15/盒",
+                                             "image":  "image8.jpg"
+                                         },
+                                         {
+                                             "name":  "花纹蛋糕",
+                                             "price":  "18/斤",
+                                             "image":  "image9.jpg"
+                                         },
+                                         {
+                                             "name":  "古早蛋糕",
+                                             "price":  "18/斤",
+                                             "image":  "image10.jpg"
+                                         },
+                                         {
+                                             "name":  "雪媚娘",
+                                             "price":  "8/盒",
+                                             "image":  "image11.jpg"
+                                         },
+                                         {
+                                             "name":  "啵啵杯",
+                                             "price":  "8/杯",
+                                             "image":  "image12.jpg"
+                                         },
+                                         {
+                                             "name":  "华夫碗",
+                                             "price":  "8/碗",
+                                             "image":  "image13.jpg"
+                                         },
+                                         {
+                                             "name":  "水果泡芙",
+                                             "price":  "15/盒",
+                                             "image":  "image14.jpg"
+                                         },
+                                         {
+                                             "name":  "蛋挞",
+                                             "price":  "10/六个",
+                                             "image":  "image15.jpg"
+                                         },
+                                         {
+                                             "name":  "爆浆泡芙",
+                                             "price":  "10/盒",
+                                             "image":  "image16.jpg"
+                                         },
+                                         {
+                                             "name":  "手工蛋卷",
+                                             "price":  "9/盒",
+                                             "image":  "image17.jpg"
+                                         },
+                                         {
+                                             "name":  "紫薯薄饼",
+                                             "price":  "7/10一盒",
+                                             "image":  "image18.jpg"
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "cakes",
+                           "name":  "蛋糕类",
+                           "items":  [
+                                         {
+                                             "name":  "草莓巧克力卷围边蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image19.jpg"
+                                         },
+                                         {
+                                             "name":  "草莓香橙生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image20.jpg"
+                                         },
+                                         {
+                                             "name":  "大眼饼干碎蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image21.jpg"
+                                         },
+                                         {
+                                             "name":  "气球小熊红心蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image22.jpg"
+                                         },
+                                         {
+                                             "name":  "三层福寿庆典蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image23.jpg"
+                                         },
+                                         {
+                                             "name":  "福如东海寿桃蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image24.jpg"
+                                         },
+                                         {
+                                             "name":  "寿桃福寿爷爷蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image25.jpg"
+                                         },
+                                         {
+                                             "name":  "红金酒瓶主题蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image26.jpg"
+                                         },
+                                         {
+                                             "name":  "彩虹甜心双层蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image27.jpg"
+                                         },
+                                         {
+                                             "name":  "星翼凯蒂猫蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image28.jpg"
+                                         },
+                                         {
+                                             "name":  "风车城堡公主蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image29.jpg"
+                                         },
+                                         {
+                                             "name":  "彩虹小猪一家蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image30.jpg"
+                                         },
+                                         {
+                                             "name":  "爱妈妈缤纷水果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image31.jpg"
+                                         },
+                                         {
+                                             "name":  "爸爸生日祝福蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image32.jpg"
+                                         },
+                                         {
+                                             "name":  "粉蝶结公主城堡蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image33.jpg"
+                                         },
+                                         {
+                                             "name":  "月亮哆啦A梦蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image34.jpg"
+                                         },
+                                         {
+                                             "name":  "深蓝星空宇航员蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image35.jpg"
+                                         },
+                                         {
+                                             "name":  "银白月球宇航员蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image36.jpg"
+                                         },
+                                         {
+                                             "name":  "月亮城堡蝴蝶结蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image37.jpg"
+                                         },
+                                         {
+                                             "name":  "红黑篮筐少年蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image38.jpg"
+                                         },
+                                         {
+                                             "name":  "蓝金加油少年篮球蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image39.jpg"
+                                         },
+                                         {
+                                             "name":  "银冠双层水果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image40.jpg"
+                                         },
+                                         {
+                                             "name":  "双层缤纷水果生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image41.jpg"
+                                         },
+                                         {
+                                             "name":  "花边四季水果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image42.jpg"
+                                         },
+                                         {
+                                             "name":  "金芒柠檬裱花蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image43.jpg"
+                                         },
+                                         {
+                                             "name":  "莓果黑饼干生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image44.jpg"
+                                         },
+                                         {
+                                             "name":  "巧克力碎片莓果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image45.jpg"
+                                         },
+                                         {
+                                             "name":  "芒果火龙果双拼蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image46.jpg"
+                                         },
+                                         {
+                                             "name":  "小熊草莓饼干蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image47.jpg"
+                                         },
+                                         {
+                                             "name":  "前程似锦水果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image48.jpg"
+                                         },
+                                         {
+                                             "name":  "草莓蓝莓饼干花环蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image49.jpg"
+                                         },
+                                         {
+                                             "name":  "青提草莓夹心饼干蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image50.jpg"
+                                         },
+                                         {
+                                             "name":  "红金篮球派对蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image51.jpg"
+                                         },
+                                         {
+                                             "name":  "凯蒂猫彩珠生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image52.jpg"
+                                         },
+                                         {
+                                             "name":  "篮球小队饼干碎蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image53.jpg"
+                                         },
+                                         {
+                                             "name":  "兔耳女孩糖果蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image54.jpg"
+                                         },
+                                         {
+                                             "name":  "彩球字母生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image55.jpg"
+                                         },
+                                         {
+                                             "name":  "黄色工程车蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image56.jpg"
+                                         },
+                                         {
+                                             "name":  "草莓雪花蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image57.jpg"
+                                         },
+                                         {
+                                             "name":  "星星云朵小萌娃蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image58.jpg"
+                                         },
+                                         {
+                                             "name":  "红心金烛蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image59.jpg"
+                                         },
+                                         {
+                                             "name":  "草莓蓝莓花园蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image60.jpg"
+                                         },
+                                         {
+                                             "name":  "福字草莓祝寿蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image61.jpg"
+                                         },
+                                         {
+                                             "name":  "金元宝暴富蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image62.jpg"
+                                         },
+                                         {
+                                             "name":  "熊猫乐园围边蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image63.jpg"
+                                         },
+                                         {
+                                             "name":  "蓝云哆啦A梦蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image64.jpg"
+                                         },
+                                         {
+                                             "name":  "粉晶蓝莓蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image65.jpg"
+                                         },
+                                         {
+                                             "name":  "蓝莓青提双拼蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image66.jpg"
+                                         },
+                                         {
+                                             "name":  "蓝莓小雏菊蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image67.jpg"
+                                         },
+                                         {
+                                             "name":  "红福双莓生日蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image68.jpg"
+                                         },
+                                         {
+                                             "name":  "芒果葡萄红丝带蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image69.jpg"
+                                         },
+                                         {
+                                             "name":  "蓝莓饼干花环蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image70.jpg"
+                                         },
+                                         {
+                                             "name":  "饼干怪兽小熊蛋糕",
+                                             "price":  "六到十二寸均可",
+                                             "image":  "image71.jpg"
+                                         }
+                                     ]
+                       }
+                   ]
 }
