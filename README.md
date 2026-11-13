@@ -14,12 +14,18 @@ npx --yes serve .
 
 ## 发布到 GitHub Pages（公开链接）
 
-1. 在 GitHub 创建仓库（或使用已有仓库），将本项目推送到 `main` 分支。
-2. 仓库 **Settings → Pages → Build and deployment**：
-   - Source: **Deploy from a branch**
-   - Branch: **main** / **/(root)**
-3. 等待 1～3 分钟，访问：
+账号 **yangyang193**，建议仓库名 **beipei-bakery**。
 
-`https://<你的用户名>.github.io/<仓库名>/`
+在 PowerShell 中：
 
-任何人可通过该链接打开菜单。
+```powershell
+gh auth login
+cd "c:\Users\Administrator\Documents\蛋糕店网页"
+.\scripts\deploy-github.ps1
+```
+
+成功后公开地址为：
+
+**https://yangyang193.github.io/beipei-bakery/**
+
+若 Pages 未自动开启，到仓库 **Settings → Pages** 选择分支 `main`、目录 `/ (root)`。
